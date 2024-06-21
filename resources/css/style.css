@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb( 245, 245, 245);
+}
+.menu-top {
+    /* position: absolute; */
+    width: 10%;
+    height: 100vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.opcoes-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.botao-menu {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+#container {
+    background-color: aqua;
+    width: 60%;
+    height: 70vh;
+    margin-right: 40vh;
+    
+}
+
+.title-usuarios {
+    color: yellow;
+}
